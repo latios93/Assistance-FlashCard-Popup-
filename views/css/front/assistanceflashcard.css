@@ -1,0 +1,61 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 7-ott-2018, 8.10.39
+    Author     : latio
+*/
+
+/* Inizio blocco Flashcard */
+div.flashcard {
+    bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.12);
+    width: 330px;
+
+}
+div.flashcard {
+    -webkit-font-smoothing: antialiased;
+    background-color: #fff;
+    color: #444;
+    display: flex;
+    flex-flow: column;
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    max-width: 100%;
+    min-height: 70px;
+    padding: 20px 15px;
+    position: fixed;
+    text-rendering: optimizeLegibility;
+    transition: bottom .4s ease-in-out;
+    visibility: hidden;
+}    
+
+div.flashcard div.flashcard-footer > a.flashcard-action {
+    background-color: #fff !important;
+    border-radius: 3px !important;
+    border: 1px solid !important;
+    box-shadow: inherit !important;
+    cursor: pointer !important;
+    display: inline-block;
+    font-size: 1em !important;
+    margin-top: 10px !important;
+    padding: 5px 0 !important;
+    text-decoration: none !important;
+    text-shadow: inherit !important;
+    width: 180px;        
+}
+
+div.flashcard > div > h3 > .flashcard-close {
+    margin-left: 1em;
+    color: inherit;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1em;
+    flex: 0 0 auto;
+}
+/* Fine blocco Flashcard */
